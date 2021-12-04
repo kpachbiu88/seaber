@@ -1,0 +1,114 @@
+{
+    "portCalls": [
+      {
+        "portCallId": 2,
+        "arrivingAt": "2021-01-07 11:00",
+        "leavingAt": "2021-01-08 11:00",
+        "portName": "Tallin"
+      },
+      {
+        "portCallId": 1,
+        "arrivingAt": "2021-01-01 11:00",
+        "leavingAt": "2021-01-02 11:00",
+        "portName": "Riga"
+      },
+      {
+        "portCallId": 3,
+        "arrivingAt": "2021-01-14 11:00",
+        "leavingAt": "2021-01-15 07:00",
+        "portName": "Porvoo"
+      },
+      {
+        "portCallId": 4,
+        "arrivingAt": "2021-01-21 11:00",
+        "leavingAt": "2021-01-22 11:00",
+        "portName": "Helsinki"
+      },
+      {
+        "portCallId": 5,
+        "arrivingAt": "2021-01-28 11:00",
+        "leavingAt": "2021-01-29 11:00",
+        "portName": "Turku"
+      }
+    ],
+    "orders": [
+      {
+        "loading": {
+            "portCallId": 1,
+            "duration": 10800000
+        },
+        "discharging": {
+            "portCallId": 2,
+            "duration": 21600000
+        },
+        "orderId": "101/Bananas"
+      },
+      {
+        "loading": {
+            "portCallId": 1,
+            "duration": 10800000
+        },
+        "discharging": {
+            "portCallId": 2,
+            "duration": 21600000
+        },
+        "orderId": "102/Apples"
+      },
+      {
+        "loading": {
+            "portCallId": 1,
+            "duration": 10800000
+        },
+        "discharging": {
+            "portCallId": 3,
+            "duration": 21600000
+        },
+        "orderId": "103/Bananas"
+      },
+      {
+        "loading": {
+            "portCallId": 1,
+            "duration": 10800000
+        },
+        "discharging": {
+            "portCallId": 3,
+            "duration": 21600000
+        },
+        "orderId": "104/Apples"
+      },
+      {
+        "loading": {
+            "portCallId": 1,
+            "duration": 10800000
+        },
+        "discharging": {
+            "portCallId": 3,
+            "duration": 21600000
+        },
+        "orderId": "105/Pears"
+      },
+      {
+        "loading": {
+            "portCallId": 2,
+            "duration": 7200000
+        },
+        "discharging": {
+            "portCallId": 3,
+            "duration": 7200000
+        },
+        "orderId": "106/Hotdogs"
+      },
+      {
+        "loading": {
+            "portCallId": 4,
+            "duration": 43200000
+        },
+        "discharging": {
+            "portCallId": 5,
+            "duration": 43200000
+        },
+        "orderId": "107/Beer"
+      }
+    ]
+}
+  
